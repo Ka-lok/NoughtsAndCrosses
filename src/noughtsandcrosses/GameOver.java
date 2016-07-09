@@ -18,8 +18,9 @@ public class GameOver extends javax.swing.JFrame {
     
     public GameOver(NoughtsAndCrossesScreen nacs) {
         this.nacs = nacs;
-        jLabel1.setText("Wins");
+        
         initComponents();
+        jLabel1.setText("Wins");
         setVisible(true);
         
     }
